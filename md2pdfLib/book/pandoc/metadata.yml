@@ -1,0 +1,12 @@
+---
+mainfont: DejaVuSerif
+title: Computer graphics
+subtitle: A practical approach
+author: Jonas Heinle
+date: \today
+documentclass: md2pdfLib/book/template/latex/bookclass
+toc: true
+highlight-style: md2pdfLib/pygments.theme
+toc-title: Table of contents
+linkcolor: blue
+---
