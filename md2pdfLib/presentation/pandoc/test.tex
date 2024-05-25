@@ -16,7 +16,7 @@ $if(papersize)$
   $papersize$paper,
 $endif$
 $if(beamer)$
-%   ignorenonframetext,
+  ignorenonframetext,
 $if(handout)$
   handout,
 $endif$
@@ -28,7 +28,6 @@ $for(classoption)$
   $classoption$$sep$,
 $endfor$
 ]{$documentclass$}
-
 $if(beamer)$
 $if(background-image)$
 \usebackgroundtemplate{%
@@ -115,7 +114,6 @@ $endif$
 $-- Set Beamer theme before user font settings so they can override theme
 $if(beamer)$
 $if(theme)$
-\definecolor{myGreenAccent}{RGB}{105, 240, 174}
 \usetheme[$for(themeoptions)$$themeoptions$$sep$,$endfor$]{$theme$}
 $endif$
 $if(colortheme)$
